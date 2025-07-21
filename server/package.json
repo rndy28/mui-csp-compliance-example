@@ -1,0 +1,11 @@
+{
+  "name": "my-app-server",
+  "packageManager": "yarn@4.6.0",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "helmet": "^8.1.0"
+  }
+}
