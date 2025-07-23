@@ -65,7 +65,7 @@ function App() {
       <Button
         onClick={() => {
           console.log(window.dataLayer)
-          dataLayerGTM("click_tag", "Click", "Button", "Open link");
+          dataLayerGTM("share", "Click", "Button", "Sharing documentation");
         }}
       >
         v5 MUI
