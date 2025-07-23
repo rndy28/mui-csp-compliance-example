@@ -16,7 +16,7 @@ app.use((req, res, next) => {
 
   res.setHeader(
     "Content-Security-Policy",
-    `default-src 'self'; script-src 'self' 'nonce-${nonce}'; style-src 'self' 'nonce-${nonce}';`
+    `default-src 'self'; script-src 'self' 'nonce-${nonce}'; style-src 'self' 'nonce-${nonce}'; style-src-elem 'self' 'nonce-${nonce}';`
   );
 
   next();
